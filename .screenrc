@@ -1,0 +1,31 @@
+sorendition gk
+# Turn off the welcome message
+caption splitonly
+
+caption always "%3n %t%? @%u%?%? [%h]%?%=%c"
+caption always "%{wk}%?%-Lw%?%{bw}%n*%f %t%?(%u)%?%{wk}%?%+Lw %=%{mk}@%H %{yk}%D %{ck}%M%{wk} %{ck}%d %{gk}%c"
+
+
+layout autosave on
+layout new one
+select 1
+layout new two
+select 1
+split
+resize -v +1
+focus down
+select 4
+focus up
+layout new three
+select 1
+split
+resize -v +1
+focus down
+select 3
+split -v
+resize -h +1
+focus right
+select 4
+focus up
+~
+~
